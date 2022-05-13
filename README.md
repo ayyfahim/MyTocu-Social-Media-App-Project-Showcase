@@ -1,26 +1,26 @@
-# MyTocu-Social-Media-App
+# MyTocu Laravel Based Social Media App
 
 <div id="header" align="center">
   <img src="https://raw.githubusercontent.com/spatie/laravel-permission/main/art/socialcard.png" />
 </div>
 
+<br>
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
 
----
 
 ## List of All Pages :
 
-### Home Page -
-
-<div id="header" align="center">
-  <img src="https://raw.githubusercontent.com/spatie/laravel-permission/main/art/socialcard.png" />
-</div>
+### Home Page 
 
 - :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 
 - :seedling: Exploring Technical Content Writing.
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
+
+<div id="header" align="center">
+  <img src="https://raw.githubusercontent.com/spatie/laravel-permission/main/art/socialcard.png" />
+</div>
 
 ### Chatting Page -
 
