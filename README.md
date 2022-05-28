@@ -36,11 +36,18 @@ _**Send Friend Requests + Accept Friend Requests + Chat with your friends + Invi
 You will see the friends tab on the website&#39;s homepage where you can see all the posts, journals and list of your friends.
 
 - **Send Friend Request** : You can send friend request to any user on the platform (if the profile is set to Public). The cool thing about this is they will receive a **real-time live notification** when you press the **send request** button.
-<div id="header" align="center">
-  <img src="https://i.ibb.co/Stf22zP/send-friend-request.gif" />
-</div>
+
+![Send Friend Request Video Demo](/send_friend_request.gif)
+
 - **Accept Friend Request** : When the user gets a friend request notification they can **accept** the Friend Request by clicking on the notification, it will redirect them to the other person&#39;s profile page. And when that user accepts a Friend Request the other user will also get a **real-time notification**.
+
+![Accept Friend Request X Video Demo](/accept_friend_request_x.gif)
+![Accept Friend Request Y Video Demo](/accept_friend_request_y.gif)
+
 - **Invite Friends** : A user can invite other user to the website. They can do that by using their email. And when a user invite someone the other person will receive an email from the website. They will receive a greeting and have to click on the link on that email that will redirect them to the register page (the email field will be automatically filled on the register page). <br><br> After the person registers they will be automatically be Friend by the user they were invited (no need to accept it, it&#39;s automatic).
+
+![Invite Friends X Video Demo](/invite_friend_x.gif)
+![Invite Friends Y Video Demo](/invite_friend_y.gif)
 
 - **Get Live Updates from Friends:** You will receive **real-time notification/updates** if your friends creates any Posts or Journals when you&#39;re online.
 - **Send Message:** You can send message to your friends and see if they&#39;re **online** or not which we will talk about later on this post.
@@ -54,6 +61,8 @@ _**Like, Comment on Posts or Journals + Receive Live Notification + See Like and
 - A user can also like other **user&#39;s comment**.
 - A user can see the **amount of likes and comments** on his own contents and also other people&#39;s contents.
 
+![Like Video Demo](/like.gif)
+
 ### Creating Posts, Lists and Journals
 
 _**Create Posts + Cropping while Uploading Image + Validation + Receive updates**
@@ -63,6 +72,8 @@ _**Create Posts + Cropping while Uploading Image + Validation + Receive updates*
 - A user can choose a **title for his List and Post** on the Create page.
 - For Posts and Lists user can **upload an image** but for Journal it&#39;s not mandatory.
 - When uploading an image user has to **Crop the image** using the Cropping Tool to match the website&#39;s ratio.
+
+![Create List Video Demo](/create_list.gif)
 
 ### Chatting with other users
 
@@ -76,6 +87,8 @@ _**Create Posts + Cropping while Uploading Image + Validation + Receive updates*
 - A **TYPING indicator** , if the other person is typing something
 - You can add **attachments** to messages.
 
+![Chatting Video Demo](/chatting.gif)
+
 ### Authentication
 
 _**Create Posts + Cropping while Uploading Image + Validation + Receive updates**
@@ -88,6 +101,8 @@ The website&#39;s register page has a simple design. It&#39;s the first page you
 - After registration you will receive a verification email with a link. You have to click on the link to verify your account otherwise you can&#39;t use your account. It prevents dummy accounts and fake users.
 - You can now login with your email and password.
 
+![Register Video Demo](/register.gif)
+
 ### Admin Panel
 
 - You can see all the **analytics** and **charts** on Admin Panel. The charts here show all the Posts that was created in the Last week and 24 hours.
@@ -95,19 +110,7 @@ The website&#39;s register page has a simple design. It&#39;s the first page you
 - You can create **Blog Posts**.
 - You can create/edit/delete posts, journals and users of the website.
 
-### Chatting Page -
-
-<div id="header" align="center">
-  <img src="https://codecanyon.img.customer.envatousercontent.com/files/392460458/Stackfood%20version%205.5.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=e6967546b5e1d345822e69dfd47c8326" />
-</div>
-
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-
-- :seedling: Exploring Technical Content Writing.
-
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
-
----
+![Admin Dashboard Video Demo](/admin_dashboard.gif)
 
 ## Other Cool Features :
 
@@ -115,6 +118,8 @@ The website&#39;s register page has a simple design. It&#39;s the first page you
 - You can set your **profile privacy** to **private** so only your friends will see your post.
 - You can change your **password and email**.
 - You can **temporary disable** your account.
+
+![Edit Profile Video Demo](/edit_profile.gif)
 
 ---
 
