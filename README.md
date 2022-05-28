@@ -36,6 +36,9 @@ _**Send Friend Requests + Accept Friend Requests + Chat with your friends + Invi
 You will see the friends tab on the website&#39;s homepage where you can see all the posts, journals and list of your friends.
 
 - **Send Friend Request** : You can send friend request to any user on the platform (if the profile is set to Public). The cool thing about this is they will receive a **real-time live notification** when you press the **send request** button.
+<div id="header" align="center">
+  <img src="https://i.ibb.co/Stf22zP/send-friend-request.gif" />
+</div>
 - **Accept Friend Request** : When the user gets a friend request notification they can **accept** the Friend Request by clicking on the notification, it will redirect them to the other person&#39;s profile page. And when that user accepts a Friend Request the other user will also get a **real-time notification**.
 - **Invite Friends** : A user can invite other user to the website. They can do that by using their email. And when a user invite someone the other person will receive an email from the website. They will receive a greeting and have to click on the link on that email that will redirect them to the register page (the email field will be automatically filled on the register page). <br><br> After the person registers they will be automatically be Friend by the user they were invited (no need to accept it, it&#39;s automatic).
 
