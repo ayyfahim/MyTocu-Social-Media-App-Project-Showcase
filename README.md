@@ -1,4 +1,4 @@
-# MyTocu Laravel Based Social Media App
+# Social Media App
 
 <!-- 
 <div id="header" align="center">
