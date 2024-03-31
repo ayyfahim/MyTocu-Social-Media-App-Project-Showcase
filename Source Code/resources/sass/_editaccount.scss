@@ -1,0 +1,70 @@
+#edit_nav {
+    border-right: 1px solid #2626262e;
+
+    li {
+        a {
+            padding: 0.7rem 1rem;
+
+            &.active {
+                font-weight: 500;
+                background-color: #fff;
+                border-left: 2px solid #000;
+            }
+        }
+    }
+}
+
+.user-info {
+    margin-bottom: 0;
+}
+
+form#edit-account {
+
+    .custom-control {
+        margin-top: 6px;
+    }
+
+    label.custom-control-label {
+        line-height: 25px;
+    }
+
+    label {
+        line-height: 35px;
+    }
+
+    input {
+        &:focus {
+            padding: 9px 0 7px 8px !important;
+        }
+    }
+
+    textarea {
+        &:focus {
+            padding: 9px 0 7px 8px !important;
+        }
+    }
+
+    .multiple-select {
+
+        column-count: 3;
+
+        select {
+            &:focus {
+                padding: 9px 0 7px 8px !important;
+            }
+
+            &.input-has-value {
+                padding: 0 !important;
+            }
+        }
+    }
+}
+
+#image_demo {
+    text-align: center;
+}
+
+.shadow_img {
+    box-shadow: 0 0 8px 0px #00000033;
+    display: block;
+}

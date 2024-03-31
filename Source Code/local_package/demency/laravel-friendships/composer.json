@@ -1,0 +1,55 @@
+{
+    "name": "demency/laravel-friendships",
+    "description": "This package gives Eloquent models the ability to manage their friendships.",
+    "keywords": ["laravel", "friendships", "friend-system", "friends", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hootlex",
+            "email": "hootlex@icloud.com"
+        },
+        {
+            "name": "Ian Torres",
+            "email": "iantorres@outlook.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "tests/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/container": "^5.8|^6.0|^7.0",
+        "illuminate/contracts": "^5.8|^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8|^4.0|^5.0",
+        "phpunit/phpunit": "^8.0|^9.0",
+        "fzaninotto/faker": "^1.9",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demency\\Friendships\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demency\\Friendships\\FriendshipsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,178 @@
+// Variables
+
+$border-color: #dbdbdb;
+$font-bold: 'Roboto',
+sans-serif;
+$font-text: 'Montserrat',
+sans-serif;
+$bold-color : #8e8e8e;
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    color: #262626;
+    font-family:
+        'Montserrat',
+        'Roboto',
+        sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    margin-bottom: 100px;
+    /* Margin bottom by footer height */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+}
+
+.f-roboto {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+}
+
+a.custom {
+    color: inherit;
+}
+
+a.custom:hover {
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 58px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px !important;
+}
+
+.no-focus:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+p.empty {
+    font-size: 18px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+a.collapsed {
+    color: $bold-color;
+}
+
+a.create-new {
+    color: $bold-color;
+    font-weight: 500;
+
+    i {
+        margin-right: 5px;
+    }
+
+    font-size: 16px;
+
+    &:hover {
+        border-bottom: 1px solid $bold-color;
+    }
+}
+
+.py-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+// #app {
+// position: relative;
+
+// main {
+//     padding: 50px 0;
+// }
+// }
+
+.border-bottom {
+    border-top: 0 !important;
+    border-bottom: 1px solid #dbdbdb !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    height: 100px;
+    /* Set the fixed height of the footer here */
+
+    // line-height: 100px;
+    /* Vertically center the text there */
+
+    background-color: #fff;
+
+    .footer-links {
+        line-height: 33.13px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    color: $bold-color;
+                }
+            }
+        }
+    }
+}
+
+@import "wtfforms";
+@import "components";
+
+// Auth
+@import "auth";
+
+// View Account
+@import "user";
+@import "content";
+
+// Edit Account
+@import "editaccount";
+
+// Navbar
+@import "navbar";
+
+// Search Page
+@import "search";
+
+// Notification Page
+@import "notification";
+
+// Responsive
+@import "responsive";

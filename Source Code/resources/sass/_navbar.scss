@@ -1,0 +1,49 @@
+.navbar {
+    padding: 20px;
+}
+
+.navbar i {
+    font-size: 18px;
+}
+
+#search {
+    font-weight: 400;
+    width: 260px;
+    border-radius: 0;
+}
+
+#search::-webkit-input-placeholder {
+    font-family: 'Roboto', "Font Awesome 5 Free";
+    font-weight: 900;
+    text-align: center;
+}
+
+.nav-link.has_notf i {
+    position: relative;
+}
+
+.nav-link.has_notf i::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -3px;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link.dropdown-toggle {
+        padding-right: 0.7rem;
+    }
+}
+
+#notification-collapse .notification-item {
+    border-bottom: 1px solid $border-color;
+}

@@ -1,0 +1,119 @@
+#single-content {
+
+    .col-md-6:first-child {
+        .card {
+            margin-top: 30px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    #content-dropdown {
+        float: right;
+    }
+
+    .content-description {
+        margin-bottom: 1.25rem;
+    }
+
+    .interactions {
+        // padding: 1rem 0;
+        padding: 1.25rem 0;
+        padding-right: 2rem;
+        overflow: hidden;
+        float: left;
+
+        .like {
+            // top: -26px;
+            // left: -31px;
+            top: -38px;
+            left: -38px;
+        }
+
+        .comment-icn {
+            position: absolute;
+            top: 0;
+            left: 37px;
+            cursor: pointer;
+            // transform: rotateY(180deg);
+
+            i {
+                margin: 0;
+                font-size: 23px;
+                color: $bold-color;
+            }
+        }
+
+
+        .like-amount {
+            // padding-left: 42px;
+            margin: 0;
+            margin-top: 8px;
+            z-index: 999;
+            font-weight: 400;
+            color: $bold-color;
+        }
+    }
+
+    .card {
+        border-radius: 0;
+        border: 1px solid #2626262e;
+
+        .card-img,
+        .card-img-top {
+            border-radius: 0;
+            padding: 8px;
+        }
+
+        .card-header {
+            border-radius: 0;
+            border-bottom: 1px solid #2626262e;
+            background-color: #fff;
+        }
+
+        // .card-body {}
+    }
+
+    .btn {
+        color: #000;
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+.interactions.list {
+    padding-bottom: 0;
+    height: 100%;
+
+    .like {
+        top: -23px;
+        right: -2px;
+        left: unset;
+    }
+
+    .comment-icn {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+
+        i {
+            font-size: 23px;
+            padding-right: 1px;
+        }
+    }
+
+    .like-amount {
+        position: absolute;
+        top: 50%;
+        right: 80px;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+}

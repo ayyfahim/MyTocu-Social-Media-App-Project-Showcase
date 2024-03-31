@@ -1,0 +1,427 @@
+/* View Account Page */
+
+#user_profile .upper-part {
+    margin-bottom: 60px;
+}
+
+.user-img {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #2626262e;
+
+    &.one-border {
+        border: 1px solid #2626262e;
+    }
+}
+
+.user-name {
+    font-weight: 300;
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.user-btn {
+    display: flex;
+
+    .btn {
+        background-color: transparent;
+        outline: none;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: inherit;
+        border: 1px solid #000;
+        border-radius: 3px;
+        color: #000;
+
+        &:hover {
+            color: #000;
+            background-color: $border-color;
+            border-color: $border-color;
+        }
+    }
+
+    a {
+        cursor: pointer;
+        font-family: $font-bold;
+        margin: 0 0.6rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &.collapsed {
+            i {
+                color: $bold-color;
+            }
+        }
+
+        i {
+            font-size: 25px;
+            color: #000;
+        }
+    }
+}
+
+#user-collapse {
+    ul {
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        padding: 15px 0;
+        padding-bottom: 0;
+
+        li {
+            list-style-type: none;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #2626262e;
+
+            a {
+                color: inherit;
+            }
+
+            &:first-child {
+                border-top: 1px solid #2626262e;
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.user-tabs {
+    border-top: 1px solid $border-color;
+    margin-top: 1rem;
+
+    .list-group {
+        // flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: unset;
+
+        li {
+            list-style-type: none;
+            margin: 0 1rem;
+
+            &:hover {
+                background-color: transparent;
+            }
+
+            .list-group-item {
+                border: none;
+                text-transform: uppercase;
+                color: inherit;
+                padding: 1rem 0;
+                color: $bold-color;
+                font-weight: 500;
+                font-size: 13px;
+                letter-spacing: 1.2px;
+                font-family: $font-bold;
+                // transition-duration: 0.5s;
+                position: relative;
+                z-index: 1;
+
+                &:hover {
+                    background-color: transparent;
+                    text-decoration: underline;
+                    color: inherit;
+                }
+
+                &:hover:after {
+                    opacity: 1;
+                }
+
+                &.active {
+                    border: none;
+                    background-color: transparent;
+                    color: inherit;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                    height: 75%;
+                    background: $border-color;
+                    border-radius: 5px;
+                    z-index: -1;
+                    opacity: 0;
+                }
+            }
+
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+
+    }
+
+}
+
+.user-tabs .nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: none;
+}
+
+#user_profile {
+    .tab-content {
+        &>.tab-pane {
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            animation-duration: 1.5s;
+            animation-delay: 0s;
+        }
+    }
+}
+
+.post-ac {
+    max-width: 300px;
+    // max-width: 100%;
+    margin: unset;
+    padding: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #2626262e;
+    background: #fff;
+
+    .post-title {
+        margin: 20px 0 0 0;
+        font-weight: 800;
+        cursor: pointer;
+        word-break: break-all;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .post-ac-image {
+        background-color: #efefef;
+        text-align: center;
+        cursor: pointer;
+        // width: 100%;
+        // height: 280px;
+        // overflow: hidden;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.journal-ac {
+    border-bottom: 1px solid #2626262e;
+    padding: 30px 0;
+
+    .card {
+        border-radius: 0;
+        border: 1px solid #2626262e;
+
+        .card-img,
+        .card-img-top {
+            border-radius: 0;
+            padding: 8px;
+        }
+
+        .card-header {
+            border-radius: 0;
+            border-bottom: 1px solid #2626262e;
+            background-color: #fff;
+        }
+
+        // .card-body {}
+    }
+
+    .journal-ac-image {
+        background-color: #efefef;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+
+        img {
+            display: initial;
+            height: 100%;
+            max-width: initial;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .s-comment-section {
+        margin-bottom: 30px;
+    }
+}
+
+.journal-row .each-journal:first-child .journal-ac {
+    padding-top: 0;
+}
+
+.journal-row .each-journal:nth-last-child(2) .journal-ac {
+    border-bottom: 0;
+}
+
+.interactions {
+    position: relative;
+    display: block;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.like {
+    width: 100px;
+    height: 100px;
+    background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+    transform: scale(0.8);
+    position: absolute;
+    top: -33px;
+    left: -35px;
+
+    &.is-active {
+        transition-duration: 1s;
+        background-position: -2800px 0;
+    }
+}
+
+.interactions i {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all 1s ease-in-out;
+    color: black;
+}
+
+.interactions i.fas {
+    color: #1fbccc;
+    text-shadow: 0 5px 15px rgba(170, 101, 218, 0.4);
+}
+
+.like-amount {
+    font-weight: 800;
+    margin: 10px 0;
+    display: block;
+}
+
+.s-comment-section .total-cmnt {
+    color: #9a9a9a;
+}
+
+.s-comment-section .all-comments {
+    margin: 10px 0;
+}
+
+.comment-user {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.big-blue {
+    color: blue;
+}
+
+@media (min-width: 768px) {
+
+    #posts .modal-dialog {
+        width: 1700px;
+        margin: 30px auto;
+    }
+
+}
+
+.journal-user-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+
+    #posts-explore .modal-dialog {
+        width: 1700px;
+        margin: 30px auto;
+    }
+
+}
+
+.each_user {
+    border: 1px solid $border-color;
+    margin-bottom: 30px;
+    padding: 1rem;
+    background-color: #fff;
+
+    .image-col {
+        flex: 0 0 100px;
+        max-width: 100px;
+    }
+
+    .user-name {
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 1.35rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .user-location {
+        margin-bottom: 0.5rem;
+        color: $bold-color;
+    }
+
+    .user-image {
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid #2626262e;
+        // width: 70px;
+        // height: 70px;
+        cursor: pointer;
+    }
+}
+
+#user_profile {
+    .lower-part {
+        .tab-content {
+            position: relative;
+        }
+
+        #wait {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fafafa8c;
+            z-index: 5;
+            display: none;
+
+            img {
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                z-index: 5;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+    }
+}

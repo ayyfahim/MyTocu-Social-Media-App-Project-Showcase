@@ -1,0 +1,26 @@
+#search_tabs {
+    .list-group {
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+
+        li {
+            list-style-type: none;
+
+            .list-group-item {
+                border-radius: 0;
+                border: none;
+                font-size: 16px;
+                color: $bold-color;
+
+                &.active {
+                    color: inherit;
+                    background-color: inherit;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
