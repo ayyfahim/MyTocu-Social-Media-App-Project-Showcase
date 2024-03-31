@@ -11,8 +11,6 @@
 
 MyTocu is a Laravel based Social Media Website built by me. It uses JavaScript and VueJs to run the Front-end. 
 
-[Online Demo](https://mytocu.topcruder.com)
-
 <br><br>
 **It has many cool features:**
 - Adding new friends (similar to Facebook). Send, Accept & Invite new people.
